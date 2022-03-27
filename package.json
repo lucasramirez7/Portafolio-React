@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lucasramirez7.github.io/Portafolio-React",
+  "homepage": "http://lucasramirez7.github.io/portafolio-React",
   
   "dependencies": {
     "@material-ui/core": "^4.12.3",
