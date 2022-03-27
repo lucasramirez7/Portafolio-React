@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portafolio-React/static/css/main.f4dc68ec.css",
-    "main.js": "/Portafolio-React/static/js/main.871db18f.js",
-    "static/js/787.aeca62f9.chunk.js": "/Portafolio-React/static/js/787.aeca62f9.chunk.js",
-    "static/media/portfolioCSS.jpg": "/Portafolio-React/static/media/portfolioCSS.e6df4d3c8e6596af72d0.jpg",
-    "static/media/binary.jpg": "/Portafolio-React/static/media/binary.ae29abd40967ae7a9684.jpg",
-    "static/media/manito.jpg": "/Portafolio-React/static/media/manito.49b50a54982583105cb4.jpg",
-    "static/media/fotoCv.png": "/Portafolio-React/static/media/fotoCv.b5cfe866bb69f6f07998.png",
-    "static/media/electronica.jpg": "/Portafolio-React/static/media/electronica.3a047ebf96af4bda933b.jpg",
-    "static/media/cv-Ramirez.pdf": "/Portafolio-React/static/media/cv-Ramirez.ddd69fd3633b28de9eea.pdf",
-    "static/media/react.png": "/Portafolio-React/static/media/react.35639ed930462bfcd544.png",
-    "static/media/c-sharp.png": "/Portafolio-React/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
-    "static/media/css.png": "/Portafolio-React/static/media/css.02d225c7df0b28341d8d.png",
-    "static/media/html5.png": "/Portafolio-React/static/media/html5.2c6a71b184b518b01b9a.png",
-    "static/media/js.png": "/Portafolio-React/static/media/js.3dfb665e058d08c99f28.png",
-    "index.html": "/Portafolio-React/index.html",
-    "main.f4dc68ec.css.map": "/Portafolio-React/static/css/main.f4dc68ec.css.map",
-    "main.871db18f.js.map": "/Portafolio-React/static/js/main.871db18f.js.map",
-    "787.aeca62f9.chunk.js.map": "/Portafolio-React/static/js/787.aeca62f9.chunk.js.map"
+    "main.css": "/portafolio-React/static/css/main.f4dc68ec.css",
+    "main.js": "/portafolio-React/static/js/main.56455988.js",
+    "static/js/787.aeca62f9.chunk.js": "/portafolio-React/static/js/787.aeca62f9.chunk.js",
+    "static/media/portfolioCSS.jpg": "/portafolio-React/static/media/portfolioCSS.e6df4d3c8e6596af72d0.jpg",
+    "static/media/binary.jpg": "/portafolio-React/static/media/binary.ae29abd40967ae7a9684.jpg",
+    "static/media/manito.jpg": "/portafolio-React/static/media/manito.49b50a54982583105cb4.jpg",
+    "static/media/fotoCv.png": "/portafolio-React/static/media/fotoCv.b5cfe866bb69f6f07998.png",
+    "static/media/electronica.jpg": "/portafolio-React/static/media/electronica.3a047ebf96af4bda933b.jpg",
+    "static/media/cv-Ramirez.pdf": "/portafolio-React/static/media/cv-Ramirez.ddd69fd3633b28de9eea.pdf",
+    "static/media/react.png": "/portafolio-React/static/media/react.35639ed930462bfcd544.png",
+    "static/media/c-sharp.png": "/portafolio-React/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/css.png": "/portafolio-React/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/html5.png": "/portafolio-React/static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/js.png": "/portafolio-React/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portafolio-React/index.html",
+    "main.f4dc68ec.css.map": "/portafolio-React/static/css/main.f4dc68ec.css.map",
+    "main.56455988.js.map": "/portafolio-React/static/js/main.56455988.js.map",
+    "787.aeca62f9.chunk.js.map": "/portafolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4dc68ec.css",
-    "static/js/main.871db18f.js"
+    "static/js/main.56455988.js"
   ]
 }
