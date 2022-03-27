@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lucasramirez7.github.io/Portafolio-React/static/css/main.f4dc68ec.css",
+    "main.js": "/lucasramirez7.github.io/Portafolio-React/static/js/main.7e5a446c.js",
+    "static/js/787.7efd31bd.chunk.js": "/lucasramirez7.github.io/Portafolio-React/static/js/787.7efd31bd.chunk.js",
+    "static/media/portfolioCSS.jpg": "/lucasramirez7.github.io/Portafolio-React/static/media/portfolioCSS.e6df4d3c8e6596af72d0.jpg",
+    "static/media/binary.jpg": "/lucasramirez7.github.io/Portafolio-React/static/media/binary.ae29abd40967ae7a9684.jpg",
+    "static/media/manito.jpg": "/lucasramirez7.github.io/Portafolio-React/static/media/manito.49b50a54982583105cb4.jpg",
+    "static/media/fotoCv.png": "/lucasramirez7.github.io/Portafolio-React/static/media/fotoCv.b5cfe866bb69f6f07998.png",
+    "static/media/electronica.jpg": "/lucasramirez7.github.io/Portafolio-React/static/media/electronica.3a047ebf96af4bda933b.jpg",
+    "static/media/cv-Ramirez.pdf": "/lucasramirez7.github.io/Portafolio-React/static/media/cv-Ramirez.ddd69fd3633b28de9eea.pdf",
+    "static/media/react.png": "/lucasramirez7.github.io/Portafolio-React/static/media/react.35639ed930462bfcd544.png",
+    "static/media/c-sharp.png": "/lucasramirez7.github.io/Portafolio-React/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/css.png": "/lucasramirez7.github.io/Portafolio-React/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/html5.png": "/lucasramirez7.github.io/Portafolio-React/static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/js.png": "/lucasramirez7.github.io/Portafolio-React/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/lucasramirez7.github.io/Portafolio-React/index.html",
+    "main.f4dc68ec.css.map": "/lucasramirez7.github.io/Portafolio-React/static/css/main.f4dc68ec.css.map",
+    "main.7e5a446c.js.map": "/lucasramirez7.github.io/Portafolio-React/static/js/main.7e5a446c.js.map",
+    "787.7efd31bd.chunk.js.map": "/lucasramirez7.github.io/Portafolio-React/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4dc68ec.css",
+    "static/js/main.7e5a446c.js"
+  ]
+}
