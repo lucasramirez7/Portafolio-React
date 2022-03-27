@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "private": true,
-  "homepage": "lucasramirez7.github.io/Portafolio-React",
+  "homepage": "http://lucasramirez7.github.io/Portafolio-React",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
