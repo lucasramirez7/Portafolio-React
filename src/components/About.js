@@ -15,7 +15,7 @@ const About = ({title, dark, id}) => {
      
       <div className = {classes.sectionContect} id = {id}>
         
-        <Typography variant="h3">{title}</Typography>  
+        <Typography variant="h3" align= "center">{title}</Typography>  
                
        
 
@@ -41,7 +41,7 @@ const About = ({title, dark, id}) => {
                 <TypeWriterEffect
                         text= "I am currently a programming student at UTN (Universidad Tecnologíca Nacional)."
                         textStyle = {{
-                        fontSize: "0.8rem",
+                        fontSize: "1.2rem",
                         fontWeight:"300px",
                         color: "#676",
                         marginTop: "20px"}}
@@ -50,18 +50,7 @@ const About = ({title, dark, id}) => {
                         cursorColor= "grey"    
                 />
 
-          <TypeWriterEffect 
-                        text= "Looking for a job so I can work for the first time a junior programmer..."
-                        textStyle = {{
-                        fontSize: "0.8rem",
-                        fontWeight:"300px",
-                        color: "#4C0946",
-                        marginTop: "20px"}}
-
-           startDelay = {10000} typeSpeed = {80} 
-                        cursorColor= "grey"    
-                />
-   
+         
 
            </CardContent>
       
@@ -95,8 +84,9 @@ const useStyles = makeStyles((theme) => ({
         color: "#fff",
   },
   sectionContect:{
-    maxWidth: "80vw",
+    maxWidth: "65vw",
     margin: "0 auto",
+    padding: theme.spacing(3)
   },
 
   card:
@@ -106,6 +96,10 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(5),
     position: "relative",
     borderRadius: "28px",
+  
+  [theme.breakpoints.down("sm")]:{
+          display: "none"
+        }
 
 
   },
@@ -132,11 +126,17 @@ const useStyles = makeStyles((theme) => ({
 
   cvBotton:{
     position:"absolute",
-    bottom: "4rem",
+    bottom: "3rem",
     right: "3.5rem",
     borderRadius: "50px",
     backgroundColor: "#4C0946",
     padding: theme.spacing(3),
+    
+    [theme.breakpoints.down("sm")]:{
+          bottom: "2rem",
+          right: "1rem",
+
+    },
     
     "&:hover":{
       backgroundColor: "#4C0946",

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import mockData from "../mockData"
 import {makeStyles, Paper, Typography, Radio, TextField, Button} from '@material-ui/core'
 
 

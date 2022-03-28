@@ -43,25 +43,28 @@ const Technologies = () => {
     ];    
 
     return (
+    
+    <div className = {classes.container}>
 
-      <Timeline aling = "right">
+    <Timeline className= {classes.Technologies} >
+      
+    
               {
                  skill.map(({src,title,stars},index) => (
-                    <TimelineItem className = {classes.container} key = {index}>
+                  
+                    <TimelineItem   key = {index} align = "center" >
                     
-                      
                         <TimelineSeparator>
-                        
                         <img src={src} alt = {title} className= {classes.customLogo}></img>
-                           
                         <TimelineConnector/>
                     
                     </TimelineSeparator>
                     <TimelineContent>
+                   
                         
                     
                     <Paper elevation={4} className = {classes.paper}>
-                      
+
                       <Typography variant= "h5" component= "h1"> 
                       
                       {title}
@@ -72,16 +75,22 @@ const Technologies = () => {
 
                       </Paper>
                     </TimelineContent>
-                    
                     </TimelineItem>
-
+                   
                  ))
-             
              }
 
+             </Timeline>
+             <Paper className = {classes.paperText} elevation={4} >
             
+             <Typography className = {classes.text}> I'm looking for a job which help me earning experience
+              and make me a professional on this beautiful career and I already have projects carried out effectively</Typography>
+            </Paper>
+            </div>
 
-      </Timeline>
+        
+
+     
        )
    
 
@@ -95,19 +104,47 @@ const useStyles = makeStyles((theme) => ({
     
 
 container:{
-   position: "relative",
-   left: "20px"
+  display: "flex",
+  marginTop: "70px",
+},
+paperText : {
+    background: "#FEF"
+},
+text: {
+    padding: "25px",
+    fontSize: "1.5rem",
+    flexBasis: "70%",
+    marginTop: "100px",
+    fontFamily: "monospace",
+    
+    [theme.breakpoints.down("sm")]:{
+    display: "none"
+
+  },
+
+},
+
+Technologies: {
+    flexBasis: "30%",
+    [theme.breakpoints.down("sm")]:{
+        alignContent: "Center",
+        flexBasis: "100%",
+        marginRight: "70px"
+      },
+
+},
+
+paper: {
+    padding: "4px 16px",
+    maxWidth: "370px",
+    color: "#333"
 },
 
 customLogo: {
-    width: "45px"
+    width: "45px",
+    
+    
 
 },
-paper: {
-    padding: "6px 16px",
-    maxWidth: "370px",
-
-}
-
 
 }))

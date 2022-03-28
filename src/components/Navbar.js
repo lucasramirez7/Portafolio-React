@@ -10,8 +10,6 @@ import MenuOpenIcon from '@material-ui/icons/MenuOpen'
 import  {useState } from 'react'
 
 
-
-
 const Navbar = () => {
   
  
@@ -191,7 +189,9 @@ const useStyles = makeStyles((theme) => ({
   
 
   menuButton :{
-      display: "none",
+     
+    display: "none",
+      
       [theme.breakpoints.down("sm")]: {
         display: "block",
         color: "#9D33C2",
@@ -213,13 +213,13 @@ const useStyles = makeStyles((theme) => ({
   },
 
   sidebar:{
-    width: "35vw",
+    width: "45vw",
     [theme.breakpoints.down("sm")]: {
-      width: "60vh"
+      width: "35vh"
     },
     "& h5":
     {
-      margin: theme.spacing(10, 0, 0, 4),
+      margin: theme.spacing(8, 0, 0, 4),
       fontSize: "1rem",
       cursor: "pointer",
       color: "#979",

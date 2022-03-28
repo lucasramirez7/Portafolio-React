@@ -12,7 +12,7 @@ const classes = useStyles();
     <div className= {`${classes.section} ${dark && classes.sectionDark}`}>
     
     <div className = {classes.sectionContect} id = {id} >
-        <Typography variant="h3">{title}</Typography>
+        <Typography variant="h3" align='center'>{title}</Typography>
       
             <Grid container className= {classes.grid}>
 
@@ -62,9 +62,9 @@ const useStyles = makeStyles((theme) => ({
       },
 
   sectionContect:{
-    maxWidth: "75vw",
+    maxWidth: "65vw",
     margin: "0 auto",
-    padding: theme.spacing(5)
+    padding: theme.spacing(3)
   },
 
   grid:{
